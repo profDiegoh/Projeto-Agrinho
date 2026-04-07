@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Sustentável - Futuro em Equilíbrio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">AgroSustentável</div>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#tecnologia">Tecnologia</a></li>
+                <li><a href="#calculadora">Impacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <section id="inicio" class="hero">
+            <h1>Produção Forte, Planeta Vivo</h1>
+            <p>O equilíbrio entre a alta produtividade e a preservação do meio ambiente é a chave para o futuro do agronegócio.</p>
+        </section>
+
+        <section id="cards" class="container">
+            <div class="card">
+                <h3>Plantio Direto</h3>
+                <p>Técnica que mantém a palhada no solo, reduzindo a erosão e mantendo a umidade.</p>
+            </div>
+            <div class="card">
+                <h3>Bioinsumos</h3>
+                <p>Uso de agentes biológicos para controlar pragas e fertilizar o solo de forma natural.</p>
+            </div>
+        </section>
+
+        <section id="calculadora" class="container">
+            <h2>Simulador de Economia de Água</h2>
+            <p>Veja quanta água você pode economizar com irrigação inteligente (em litros/dia):</p>
+            <input type="number" id="area" placeholder="Área plantada (hectares)">
+            <button onclick="calcularImpacto()">Calcular Economia</button>
+            <p id="resultado"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Projeto Agrinho - Desenvolvido por Alunos do 2º Ano</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
