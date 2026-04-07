@@ -23,6 +23,24 @@ Configurar o ambiente: Recomendamos o uso do VS Code com a extensão Live Server
 
 Personalizar: Sinta-se à vontade para alterar as cores no arquivo style.css (procure pela seção :root) e os textos no index.html.
 
+🌐 Como colocar seu site no ar (GitHub Pages)
+Uma das partes mais legais de ser um desenvolvedor Front-End é ver seu projeto disponível para o mundo todo! Siga estes passos para ativar o link do seu site:
+
+No topo do seu repositório no GitHub, clique na aba Settings (Configurações ⚙️).
+
+No menu lateral esquerdo, procure a seção Code and automation e clique em Pages.
+
+Em Build and deployment, verifique se a "Source" está definida como Deploy from a branch.
+
+No campo Branch, clique em "None" e selecione a branch main. Certifique-se de que a pasta ao lado esteja como /(root).
+
+Clique no botão Save.
+
+Aguarde cerca de 1 a 2 minutos. Recarregue a página de configurações e um link (geralmente https://seu-usuario.github.io/nome-do-projeto/) aparecerá no topo.
+
+[!TIP]
+Dica de Ouro: Toda vez que você fizer um novo "Commit" (salvar alterações) e enviar para o GitHub, o seu link será atualizado automaticamente em instantes!
+
 💡 Dicas para o Concurso
 🎨 Design e UI/UX
 Utilize uma paleta de cores que remeta à natureza e tecnologia (tons de verde, terra e azul tecnológico).
