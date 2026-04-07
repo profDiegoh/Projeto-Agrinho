@@ -1,4 +1,5 @@
 🌾 Template Base: Agro Forte, Futuro Sustentável
+
 Bem-vindos ao repositório base para o concurso de programação! Este projeto foi criado para servir de ponto de partida para o desenvolvimento de um site focado no equilíbrio entre a produção agrícola e a preservação ambiental.
 
 🎯 Objetivo do Projeto
